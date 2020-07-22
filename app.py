@@ -10,7 +10,7 @@ import psycopg2
 from flask_heroku import Heroku
 
 app = Flask(__name__)
-# heroku = Heroku(app)
+heroku = Heroku(app)
 
 conn = psycopg2.connect("host=ec2-50-19-26-235.compute-1.amazonaws.com dbname=d5t056d2uv3137 user=kqfdswcidljdnv"
                         " password=4c70005b0a5bb7111331b5bff1ef1425f23a94b7b9121c41b22c10873625ce60")
@@ -19,7 +19,7 @@ cur = conn.cursor()
 
 load_dotenv('.env')
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/lab5'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/lab5'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = environ.get('SECRET_KEY')
 Db.init_app(app)
