@@ -4,6 +4,7 @@ from models.models import Db, User, Post
 from forms.forms import SignupForm, LoginForm, NewpostForm
 from os import environ
 from passlib.hash import sha256_crypt
+import gunicorn
 import psycopg2
 
 from flask_heroku import Heroku
