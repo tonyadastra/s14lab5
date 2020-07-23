@@ -42,9 +42,12 @@ From [Google Developers](https://developers.google.com/speed/pagespeed/insights/
     
 + SEO Improvement Recommendations
     + This page has only very few internal links. If it's a welcome page, consider removing it.
+        + Solution: Add more internal links on homepage, also add "back to homepage" option in login and register
     + Use 301 redirects to drive traffic to URLS with the same domain and sub domain (www and non-www subdomain).
     + Add a meta description.
+        + Solution: Add meta descriptions in layout.html to improve SEO Rankings.(organic ad text)
     + Remove unnecessary words like welcome messages from your H1 heading.
+        + Solution: Remove "welcome" messages, and replace it with more meaningful text.
     + Only use 1 H1 Heading in your text.
 
 
