@@ -49,6 +49,7 @@ From [Google Developers](https://developers.google.com/speed/pagespeed/insights/
     + Remove unnecessary words like welcome messages from your H1 heading.
         + Solution: Remove "welcome" messages, and replace it with more meaningful text.
     + Only use 1 H1 Heading in your text.
+        + Solution: Remove unnecessary h1s and replace them with h2/others
 
 
 
